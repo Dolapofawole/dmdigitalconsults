@@ -1,0 +1,140 @@
+body{
+  background-color: rgb(228, 226, 226);
+}
+
+.carousel-caption{
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+  color: #fb6049;
+
+}
+.navbar-text{
+ font-size:25px;
+ font-family:cursive;
+ color: rgb(15, 15, 15);
+}
+.navbar{
+  background-color: #ff5339 ;
+  font-size: 20px;
+  color: white;
+}
+.collapsek a:hover{
+  color: white;
+  
+}
+.carousel-indicators li{
+  border: 0;
+  border-radius:50%;
+  box-shadow: 0 0 0 .2rem rgba(255, 255, 255, 1);
+  height: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width:15px;
+}
+.carousel-caption p{
+  color: white;
+  font-size: 25px;
+
+  
+}
+.royalty p{
+  color: black;
+}
+h1{
+  font-size: 45px;
+}
+.first-heading{
+  font-size:30px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.event a{
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+}
+.event a:hover{
+  color:#fb6049;
+}
+.card-img-top:hover{
+      opacity: 0.8;
+}
+.pagination a{
+  color: #fb6049;
+
+}
+.page-item.active .page-link {
+  color: #fff;
+  background-color: #fb6049;
+  border-color: #fb6049;}
+  
+  
+  .navbar-light .navbar-nav .nav-link {
+    color:white;
+}
+.do a:hover{
+  color: #007bff;
+
+
+}
+
+ul li{
+  list-style-type: none;
+  font-size: 20px;
+
+}
+.list-group-item {
+  margin-bottom: -1px;
+  border:none;
+  background-color: transparent;
+  font-size: 20px;
+  color: white;
+  
+}
+.footer a:hover{
+  color:#fca89c;
+  text-decoration: none;
+  background-color: transparent;
+  
+}
+.mx{
+  text-align: center;
+}
+
+video:hover{
+  opacity: 0.6;
+}
+.jumbotron {
+  background-color: black;
+
+}
+.mx h4{
+  color:#fb6049;
+}
+.fab{
+  color: blue;
+  font-size: 20px;
+}
+.fas{
+  color: red;
+  font-size: 20px;
+}
+.icons{
+  font-size: 20px;
+}
+.playlist a{
+  text-decoration: none;
+  color:black;
+  font-size: 20px;
+}
+.playlist a:hover{
+  color:#fca89c;
+
+  
+}
+.copyright{
+ 
+  color: #ff5339;
+  text-align: center;
+  padding: 10px;
+}
