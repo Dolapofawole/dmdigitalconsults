@@ -1,0 +1,27 @@
+.contact-one-col{
+    height: auto;
+    background-color: 00ff33;
+    color:rgb(245, 21, 21);
+    border-radius: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    
+}
+table{
+    color:rgb(245, 21, 21);
+    font-weight:bold;
+   
+}
+.contact-two-co{
+    padding: 80px;
+}
+.head-text-contact-one{
+    padding: 50px;
+}
+.contact-submit-btn{
+    background-color: 00ff33;
+    color:white;
+}
+.float-left{
+    font-size: 35px;
+}

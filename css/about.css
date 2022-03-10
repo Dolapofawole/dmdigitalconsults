@@ -1,0 +1,38 @@
+.slick-slide{
+    height:300px;
+}
+.head-one{
+color:white;
+}
+.icon{
+    color: rgba(0, 0, 0, 0.856);
+    
+}
+.slide-slider{
+    position: relative;
+    /* background: */
+    /* url("../image/sliderimage1.jpg"); */
+    /* url("../Image/slideimage-2.jpg"); */
+    
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200px;
+    
+}
+.follow-up{
+    background-image: url('../image/web-design.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+}
+
+
+@media screen and (max-width:768px){
+        .follow-up{
+            height:300px;
+
+        }
+        .slide-slider{
+            height:auto;
+        }
+};

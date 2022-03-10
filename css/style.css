@@ -1,13 +1,11 @@
 .caption-word{
-    background-color: rgba(70, 16, 16, 0.719);
+    background-color: #0e8a27a8;
     opacity: 1;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(15, 15, 15)!important;
 }
-/* .about-text{
-    font-size: 20px;
-} */
+
 .navbar-text1{
     color: rgb(245, 21, 21)!important;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,29 +14,33 @@
   }
   .navbar-text2{
     color: 00ff33!important;
-
     font-size: 20px;
+    font-weight: 700;
   }
 
 .navbar{
     padding-top: 0;
     padding-bottom: 0;
+    padding:15px;
 }
 .navbar-custom{
     font-size: 20px;
 }
-h2{
+.head-one{
     color:00ff33;
 }
-h3{
+.head-two,.carousel-heading{
     color: rgb(245, 21, 21);  
 }
-.jumbotron{
+.hod{
     background-color: aliceblue!important;  
 
 }
+.hod a{
+    color: orange;
+}
 .card:hover{
- background-color:aliceblue  ;
+ background-color:rgba(8, 117, 66, 0.616)  ;
 }
 .product-headingr:hover{
     background-color:aliceblue!important ;
@@ -55,6 +57,11 @@ h3{
     font-size: 90px;
     color: 00ff33;
 }
+.icon:hover{
+    font-size: 100px;
+}
+
+
 .mynav {
    width:200px;
    text-align: center;
@@ -67,17 +74,67 @@ h3{
  .service-heading{
      padding: 20px;
  }
-/* .hire{
-    
-    position: relative;
+ .mx{
+  text-align: center;
+}
+.list-group-item {
+  margin-bottom: -1px;
+  border:none;
+  background-color: transparent;
+  font-size: 15px;
+  color: white;
+  
+}
+.footer a:hover{
+  color:rgb(245, 21, 21);
+  text-decoration: none;
+  background-color: transparent;
+  
+}
+.mx h4{
+    color:00ff33!important; 
+    font-size: 20px!important;
+  }
+  .fab.fa-facebook.foot-icon{
     color: white;
+    font-size: 20px;
+  }
+  .foot-icon{
+    color: white;
+    font-size: 20px;
+    font-size: 20px;
+   
+  }
+  .copyright{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+  }
+  .footer-text1{
+      font-size: 35px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color:rgb(245, 21, 21);
+  }
+  .footer-text2{
+    font-size: 35px;
+    color:00ff33; 
 }
-.hire-us img{
-    position: absolute;
-}
-*{box-sizing: border-box;
-} */
 
+.sub-heading a.abouth {
+    text-decoration: none;
+    font-size: 30px;
+    color:rgb(245, 21, 21);
+}
+.abt-txt{
+    font-size: 18px;
+}
+.card-body{
+    padding:0!important;
+}
+.why-us{
+    font-size: 18px;;
+}
  @media screen and (max-width:768px) {
     .carousel-item img {
         width: 100%;
@@ -91,6 +148,7 @@ h3{
     .hire h1{
         font-size: 24px;
     }
+    
 }
 .pb{
 padding-bottom: 100px;
