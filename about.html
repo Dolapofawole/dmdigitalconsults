@@ -210,10 +210,11 @@
 
 			$(document).ready(setInterval(slider, 2000));
 		  function slider(){
-		  var imag = ["myimage/slider_image1.JPG","myimage/slider_image2.JPG"];
+		  var imag = ["myimage/slider_image1.jpg","myimage/slider_image2.jpg"];
 		  var ok = document.getElementById('slide');
 		  var image = imag.sort(function(a, b){return 0.5 - Math.random()});
       ok.style.backgroundImage = "url('"+image[0]+"')";
+      
 		}
 </script>
 </body>
